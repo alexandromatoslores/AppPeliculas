@@ -1,0 +1,16 @@
+.title {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(199, 166, 229);
+    background: linear-gradient(to right,#0a3c3f, #0d0c41);
+    /*border: 2px solid #f4eeee;*/
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .title:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+  }

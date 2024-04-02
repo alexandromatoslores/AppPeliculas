@@ -1,0 +1,36 @@
+.movieCard {
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: 0.5s;
+  }
+  
+  .movieCard:hover {
+    opacity: 0.5;
+    transform: translateY(-30px);
+  }
+  
+  .movieImage {
+    border-radius: 10px;
+    box-shadow: 3px 4px 4px 4px rgb(0, 0, 0, 1);
+    transition: box-shadow 0.3s, transform 0.3s;
+    transform-origin: center center;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 560px) {
+    .movieImage {
+      width: 90%;
+      height: auto;
+    }
+  }
+  
+  .titlelink {
+    color: rgb(230, 216, 230);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .titlelink:hover {
+    color: #ffcc00;
+  } 

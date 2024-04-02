@@ -1,0 +1,55 @@
+.detailsContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col{
+   max-width: 600px;
+   margin: 15px; 
+   height: auto;
+   width: 90%;
+}
+
+
+
+.Img {
+    border-radius: 15px;
+    box-shadow: 6px 4px 4px rgba(1, 1, 1, 1);
+    transition: box-shadow 0.3s, transform 0.3s;
+    transform-origin: center center;
+    overflow: hidden;
+  }
+  
+  .Img:hover {
+    transform: scale(0.95);
+  }
+
+
+
+
+.titleMovie{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: rgb(199, 166, 229);
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+.titleMovie:hover {
+    transform: scale(1.05);
+    color: #ffffff;
+}
+
+.movieDetails{
+    font-size: 1.5rem;
+}
+
+.genero{
+    margin-bottom: 30px;
+}
+
+.descripcion{
+    margin-bottom: 60px;
+}
